@@ -1,20 +1,14 @@
-# 2D Roguelike Video Game Project
-
-Welcome to our ambitious 2D roguelike video game project! This venture combines elements of horror and various battle mechanics within the Unity engine. 
+# Augment System Branch
 
 ## Overview
-The game aims to offer an immersive experience by featuring a variety of map styles, including horror, modern, and ancient settings. 
+Welcome to the Augment System Branch of our 2D Roguelike Video Game Project! This branch focuses on implementing and refining an augment system that enhances player abilities and progression within the Unity engine.
 
 ## Core Components
-- **Spell Casts:** Implementing a diverse range of spells that players can utilize strategically to overcome enemies and obstacles.
-- **Augment System:** Use augment drops to increase engagements, offering more buffs and spells to make the player stronger.
-- **Movements:** Implementing fluid and responsive character movements, allowing players to navigate through challenging environments seamlessly.
-- **And more features to come!**
+### Augment Drops
+In this branch, we are dedicated to implementing augment drops that players can collect throughout the game. These drops will provide various buffs, unlock new spells, and strengthen player characters, offering a sense of progression and empowerment.
 
-## Objective
-The primary goal is to provide players with a thrilling and unpredictable roguelike experience. The focus is on procedurally generated levels that enhance replayability while incorporating horror and combat elements to keep players on the edge of their seats. 
+### Augment Management
+The augment system will include mechanics for managing acquired augments, such as inventory management and equipping augments to characters. Players will have the ability to strategically choose which augments to use based on their playstyle and current objectives.
 
-## Key Features
-- **Map Styles:** 
-  - **Horror:** Creating a terrifying atmosphere through visuals, sound effects, and environmental storytelling.
-- **Procedural Generation:** Designing a robust procedural generation system for levels, ensuring a unique experience in each playthrough. Balancing the procedural generation to maintain a fair and challenging progression for players.
+### Augment Effects
+Each augment will offer unique effects and enhancements to player abilities. From increasing damage output to providing defensive bonuses or granting new abilities, augments will play a crucial role in shaping the player's gameplay experience.
