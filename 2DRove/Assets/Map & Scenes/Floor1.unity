@@ -1585,7 +1585,8 @@ GameObject:
   - component: {fileID: 602447683}
   - component: {fileID: 602447684}
   - component: {fileID: 602447685}
-  - component: {fileID: 602447686}
+  - component: {fileID: 602447687}
+  - component: {fileID: 602447688}
   m_Layer: 6
   m_Name: Start
   m_TagString: Untagged
@@ -1627,12 +1628,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602447681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beea543b0de777d4ab12afa55f562645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tile: {fileID: 9148618936101596910, guid: 1229179fec04ecb47bd1add17e053ab4, type: 3}
+  beginningTile: {fileID: 0}
+  tile:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   borderPrefab: {fileID: 9148618936101596910, guid: ecc8ee7854454b7459ce990868a9d124, type: 3}
   exitPrefab: {fileID: 923991240687089494, guid: e61882843c20b724b8a4998f498ece17, type: 3}
   tileNum: 20
@@ -1646,7 +1651,7 @@ MonoBehaviour:
   maxY: 10
   minX: -10
   minY: -10
---- !u!114 &602447686
+--- !u!114 &602447687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1655,17 +1660,71 @@ MonoBehaviour:
   m_GameObject: {fileID: 602447681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bcb3b3d201d6ae4d9e9bf3e930193f7, type: 3}
+  m_Script: {fileID: 11500000, guid: bcf9b579d56aac848a7c4ea167e2940e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  humpEastPrefab: {fileID: 9148618936101596910, guid: 6aaf582b983832141bbe605488891e2a, type: 3}
-  humpNorthPrefab: {fileID: 9148618936101596910, guid: e8be630dcc2a13d4c841d83d43feb403, type: 3}
-  humpSouthPrefab: {fileID: 9148618936101596910, guid: bb9c817fa967c234f9308cabca8e8348, type: 3}
-  humpWestPrefab: {fileID: 9148618936101596910, guid: 81d0170bc21001f43b7637f1e68c409c, type: 3}
-  NEcornerPrefab: {fileID: 9148618936101596910, guid: b17a61d802e64e74bbee232dd9ae6a71, type: 3}
-  NWcornerPrefab: {fileID: 9148618936101596910, guid: f3d2e6ce8e37bd542b26ce044edda354, type: 3}
-  SEcornerPrefab: {fileID: 9148618936101596910, guid: f19dd0465efe8e04bb4a792f0c334c55, type: 3}
-  SWcornerPrefab: {fileID: 9148618936101596910, guid: 52e97b4a5f58c6c4aa321ba5965cf554, type: 3}
+  beginningTile: {fileID: 7068798694665282607, guid: db45b3c69d8e4f54e9f4ecc5616ef523, type: 3}
+  tile:
+  - {fileID: 7068798694665282607, guid: db45b3c69d8e4f54e9f4ecc5616ef523, type: 3}
+  - {fileID: 7068798694665282607, guid: 1f1d8cd5249c90747ab8c8258a60482b, type: 3}
+  - {fileID: 7068798694665282607, guid: 0e41e6d95ae91b9438d110523c4061e8, type: 3}
+  - {fileID: 7068798694665282607, guid: 548614c3e3f7a584087156468d0c544c, type: 3}
+  - {fileID: 7068798694665282607, guid: 61b6d68bfb926f845956cddbb9bf66ab, type: 3}
+  - {fileID: 7068798694665282607, guid: abdfd33c97de2104ea56222ff7b9afcf, type: 3}
+  - {fileID: 7068798694665282607, guid: 47997ed5ec08d5445b3f313f9d84dcaf, type: 3}
+  - {fileID: 7068798694665282607, guid: 0d12f2c49cca4ad4ebe8c6b76e3f9fe6, type: 3}
+  - {fileID: 7068798694665282607, guid: 64dc002e5f148704ebc454f2d4d41eb9, type: 3}
+  borderPrefab: {fileID: 7068798694665282607, guid: b5ee1efb80f06a940b0864dc78e941ff, type: 3}
+  exitPrefab: {fileID: 923991240687089494, guid: e61882843c20b724b8a4998f498ece17, type: 3}
+  tileNum: 5
+  leftMost: 0
+  rightMost: 0
+  topMost: 0
+  bottomMost: 0
+  assignEdgesCity: {fileID: 0}
+  scale: 6.5
+  maxX: 10
+  maxY: 10
+  minX: -10
+  minY: -10
+--- !u!114 &602447688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602447681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae887a2b6ad6e4047b8c6fa9a44ed04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  humpEastPrefab:
+  - {fileID: 7068798694665282607, guid: ec793d3468d02c847b7bfa73b62d5dbc, type: 3}
+  - {fileID: 7068798694665282607, guid: 24cc423da08dc2649b094f89ec4c3906, type: 3}
+  - {fileID: 7068798694665282607, guid: 328e81115b1b20641b5c80a8a71d4f7b, type: 3}
+  humpNorthPrefab:
+  - {fileID: 7068798694665282607, guid: 7e43334f47da9b4468551dccd34cadfa, type: 3}
+  - {fileID: 7068798694665282607, guid: c9e2083339f2a5f44af4faa622c15ca8, type: 3}
+  - {fileID: 7068798694665282607, guid: 096966410db39e24db8e3381edcdfb1d, type: 3}
+  humpSouthPrefab:
+  - {fileID: 7068798694665282607, guid: 89d6c972f94260f439a9ff3a7e81cba1, type: 3}
+  - {fileID: 7068798694665282607, guid: 294daf6f936d366418735f40ece7a932, type: 3}
+  - {fileID: 7068798694665282607, guid: 22d8f50308eef054c915f364b57660ea, type: 3}
+  humpWestPrefab:
+  - {fileID: 7068798694665282607, guid: 01c16ae824fcc3c4c9edf0dff5ed659c, type: 3}
+  - {fileID: 7068798694665282607, guid: 9319aef816003f4429dd2a8bb0c57c7d, type: 3}
+  - {fileID: 7068798694665282607, guid: 7c35884aa439c994d8b44d682449e982, type: 3}
+  NEcornerPrefab:
+  - {fileID: 7068798694665282607, guid: 1ac1afa71ebacdd49a66c405fb67505e, type: 3}
+  - {fileID: 7068798694665282607, guid: 852af26f9ca14eb4684317228deaf5c0, type: 3}
+  - {fileID: 7068798694665282607, guid: 3bcd174f3532a1340a4da7bfbefc8af7, type: 3}
+  NWcornerPrefab:
+  - {fileID: 7068798694665282607, guid: c7fbde58dffb545439b7231099b4d40e, type: 3}
+  SEcornerPrefab:
+  - {fileID: 7068798694665282607, guid: 31127c0e72bc9684fadd9ad9daa28afc, type: 3}
+  SWcornerPrefab:
+  - {fileID: 7068798694665282607, guid: 44adadfbec9c52f47915d7c746b29fd4, type: 3}
 --- !u!1 &609530228
 GameObject:
   m_ObjectHideFlags: 0
